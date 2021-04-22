@@ -19,7 +19,6 @@ const deploy = async () => {
     .deploy({ data: compiledFactory.evm.bytecode.object })
     .send({ from: accounts[0], gas: '5000000'});
 
-  console.log(compiledFactory.abi);
   console.log('Contract deployed to: ', result.options.address);
 }
 deploy();
