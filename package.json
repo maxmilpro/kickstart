@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha",
     "compile": "node ethereum/compile.js",
-    "deploy": "node ethereum/deploy.js"
+    "deploy": "node ethereum/deploy.js",
+    "dev": "next dev"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,9 @@
     "fs-extra": "^9.1.0",
     "ganache-cli": "^6.12.2",
     "mocha": "^8.3.2",
+    "next": "^4.1.4",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "solc": "^0.8.4",
     "truffle-hdwallet-provider": "^1.0.17",
     "web3": "^1.3.5"
