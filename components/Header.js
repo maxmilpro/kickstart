@@ -1,7 +1,7 @@
 import React from 'react';
 import { Menu } from 'semantic-ui-react';
 
-export default () => {
+const Header = () => {
   return (
     <Menu style={{ marginTop: '10px' }}>
       <Menu.Item>
@@ -17,3 +17,5 @@ export default () => {
     </Menu>
   )
 }
+
+export default Header;
